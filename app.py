@@ -15,8 +15,8 @@ Additional calculations for Plastic Viscosity (PV), Yield Point (YP), and more w
 
 # Function to collect user input
 def user_input_features():
-    Mud_Wt_In_ppg = st.sidebar.number_input('Mud Wt. In (ppg)', min_value=8.0, max_value=20.0, value=10.0, step=0.1)
-    Funnel_Viscosity = st.sidebar.number_input('Funnel Viscosity ', min_value=25.0, max_value=80.0, value=35.0, step=0.1)
+    Mud_Wt_In_ppg = st.sidebar.number_input('Mud Wt. In (ppg)', min_value=8.7, max_value=35.0, value=8.7, step=0.1)
+    Funnel_Viscosity = st.sidebar.number_input('Funnel Viscosity ', min_value=35.0, max_value=120.0, value=35.0, step=0.1)
     
     data = {
         'Mud Wt. In (ppg)': Mud_Wt_In_ppg,
